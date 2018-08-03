@@ -9,6 +9,9 @@
     <modules>
         <module>config-server</module>
         <module>eureka-server</module>
+        <module>zipkin-service</module>
+        <module>monitor-service</module>
+        <module>uaa-service</module>
     </modules>
     <packaging>pom</packaging>
 
