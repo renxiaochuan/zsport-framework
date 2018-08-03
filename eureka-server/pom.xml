@@ -24,10 +24,12 @@
 	</properties>
 
 	<dependencies>
+		<!--web起步依赖-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!--注册中心服务器依赖-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
@@ -37,6 +39,7 @@
 
 	<build>
 		<plugins>
+			<!--maven插件依赖-->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

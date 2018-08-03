@@ -6,6 +6,10 @@
     <groupId>com.zsport.platform</groupId>
     <artifactId>zsport-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>config-server</module>
+        <module>eureka-server</module>
+    </modules>
     <packaging>pom</packaging>
 
     <parent>
