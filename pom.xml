@@ -12,6 +12,7 @@
         <module>zipkin-service</module>
         <module>monitor-service</module>
         <module>uaa-service</module>
+        <module>gateway-service</module>
     </modules>
     <packaging>pom</packaging>
 
