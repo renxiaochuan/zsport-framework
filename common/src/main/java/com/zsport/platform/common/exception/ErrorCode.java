@@ -2,7 +2,6 @@ package com.zsport.platform.common.exception;
 
 /**
  * 通用错误码
- * Created by fangzhipeng on 2017/5/18.
  */
 public enum ErrorCode {
 

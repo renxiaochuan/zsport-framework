@@ -48,7 +48,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.forezp.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.zsport.platform.blogservice.web"))
                 .paths(PathSelectors.any())
                 .build().globalOperationParameters(parameter());
     }

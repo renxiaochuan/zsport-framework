@@ -19,7 +19,7 @@ public class CommonExceptionHandler {
         CommonException taiChiException = (CommonException) e;
         resp.code = taiChiException.getCode();
         resp.error = e.getMessage();
-
+        e.printStackTrace();
         return new ResponseEntity(resp, HttpStatus.OK);
     }
 
