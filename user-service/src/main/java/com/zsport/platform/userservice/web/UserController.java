@@ -49,6 +49,14 @@ public class UserController {
         return RespDTO.onSuc(user);
     }
 
+
+    @ApiOperation(value = "测试下get请求和网关", notes = "测试下get请求和网关")
+    @GetMapping("/testGet")
+    @SysLogger("testGet")
+    public RespDTO testGet(){
+
+        return RespDTO.onSuc("测试下get请求和网关---结果很成功啊");
+    }
 //    @Autowired
 //    private AmqpTemplate rabbitTemplate;
 //    @GetMapping("/test")

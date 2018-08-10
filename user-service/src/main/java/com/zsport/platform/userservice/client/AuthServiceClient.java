@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Created by fangzhipeng on 2017/5/27.
  */
 
-@FeignClient(value = "uaa-service",fallback =AuthServiceHystrix.class )
+@FeignClient(value = "uaa-service"/*,fallback =AuthServiceHystrix.class*/ )
 public interface AuthServiceClient {
 
     @PostMapping(value = "/oauth/token")

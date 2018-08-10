@@ -14,7 +14,7 @@ import org.springframework.util.FileCopyUtils;
 import java.io.IOException;
 
 /**
- * Created by fangzhipeng on 2017/5/27.
+ * 资源服务器 jwtToken解码类
  */
 @Configuration
 public class JwtConfiguration {

@@ -4,9 +4,7 @@ package com.zsport.platform.uaaservice.dao;
 import com.zsport.platform.uaaservice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- * Created by fangzhipeng on 2017/5/27.
- */
+
 
 public interface UserDao extends JpaRepository<User, Long> {
 
