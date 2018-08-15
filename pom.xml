@@ -17,6 +17,7 @@
         <module>user-service</module>
         <module>blog-service</module>
         <module>log-service</module>
+
     </modules>
     <packaging>pom</packaging>
 
