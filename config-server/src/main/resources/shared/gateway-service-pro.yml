@@ -26,6 +26,11 @@ zuul:
       serviceId: blog-service
       sensitiveHeaders:
 
+    file-upload-service:
+      path: /testapi/**
+      serviceId: file-upload-service
+      sensitiveHeaders:
+
 server:
   port: 5000
 
